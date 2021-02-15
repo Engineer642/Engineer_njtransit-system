@@ -9,8 +9,9 @@ import random
 import time
 
 client = commands.Bot(command_prefix = '+', case_insensitive=True)
-Client = discord.client
-Clientdiscord = discord.Client()
+Client = discord.client (782859586281275422)
+Client = discord.client(782859586281275422)
+Clientdiscord = discord.Client(782859586281275422)
 
 @client.event
 async def on_ready():
@@ -43,5 +44,6 @@ async def send(ctx, *, content: str):
                 print("can't")
                 await client.say("DM can't Sent To : {} :x: ".format(member))
 
-
-client.run("YOUR BOT'S TOKEN HERE")                
+client.run("NzgyODU5NTg2MjgxMjc1NDIy.X8SUzg.h8gdD5JnXLve47B6tgs-qiKTHms")
+client.run("NzgyODU5NTg2MjgxMjc1NDIy.X8SUzg.h8gdD5JnXLve47B6tgs-qiKTHms")
+client.run("NzgyODU5NTg2MjgxMjc1NDIy.X8SUzg.h8gdD5JnXLve47B6tgs-qiKTHms")                
